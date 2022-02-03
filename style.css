@@ -1,0 +1,51 @@
+h1{
+    margin-left: 3rem;
+    font-weight: bolder;
+}
+li{
+    list-style: none;
+    margin-left: 2rem;
+}
+.navbar>nav{
+    display: flex;
+    justify-content: space-between;
+}
+ul {
+    display: flex;
+    margin-right: 1.5rem;
+    padding: 13px;
+    font-size: 1.3rem;
+}
+.welcomeimg>img{
+    height: 90vh;
+    width: 95vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
+} 
+.skills{
+    display: flex;
+}
+.skills>div{
+    text-align: center;
+    /* margin-top: 1rem; */
+    padding: 1vw;
+    margin: 2vw;
+    
+}
+.footer{
+    background-color: black;
+    color: blanchedalmond;
+    
+    text-align: center;
+}
+.footer>p{
+    font-size: 25px;
+}
+
+a:link, a:visited{
+    color: black;
+}
+
+a:hover{
+    color: coral;
+}
